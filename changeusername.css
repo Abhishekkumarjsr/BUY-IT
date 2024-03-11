@@ -1,0 +1,60 @@
+/* Importing Google font - Open Sans */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: url("sing.png") center/cover no-repeat;
+}
+
+.change-username {
+    position: fixed;
+    top: 50%;
+    left: 52%;
+    z-index: 10;
+    width: 100%;
+    max-width: 700px;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 16px;
+    transform: translate(-55%, -70%);
+    background-color: #000;
+}
+
+.change-username .text-box h1 {
+    color: #fff;
+}
+
+/* .change-username .text-box-content {
+    background-color: #000;
+} */
+
+.change-username .text-box-content .username-change-button {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media (max-width: 950px) {
+    
+}
+
+@media (max-width: 760px) {
+
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    .change-username {
+        width: 76%;
+    }
+
+}

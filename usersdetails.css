@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: url("sign.jpg") center / cover no-repeat;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 0 10px;
+}
+
+.tx {
+    text-align: center;
+    align-items: center;
+}
+
+.container {
+    font-size: 40px;
+    color: #fff;
+    text-align: left;
+    padding-left: 18%;
+    max-width: auto;
+    max-height: 800px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 10px;
+    width: 100%;
+    background: transparent;
+    border: 2px solid transparent;
+    /* transform: translate(-50%, -50%); */
+}
+
+.navbar {
+    padding: 22px 0;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navbar .logo h2 {
+    color: antiquewhite;
+    font-style: 1.7rem;
+    font-weight: 600;
+
+}
+
+.navbar .logo img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.navbar .links {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+.navbar .links a {
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.navbar .links a:hover {
+    color: #19e8ff;
+}
+
+.navbar .login-btn {
+    border: none;
+    outline: none;
+    color: #275360;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    background: snow;
+}
+
+.form-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    max-width: 850px;
+    width: 100%;
+    background: #fff;
+    border: 2px solid #fff;
+    transform: translate(-50%, -50%);
+}
+
+.form-popup .close-btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: #878484;
+    cursor: pointer;
+}
+
+.form-popup .form-box {
+    display: flex;
+    gap: 9px;
+}
+
+.form-box .form-details {
+    max-width: 330px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("signin-img.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.form-box h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-box .form-content {
+    width: 100%;
+    padding: 35px;
+}
+
+form .input-field {
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+form .input-field input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 0.95rem;
+    border-radius: 3px;
+    border: 1px solid #717171;
+}
+
+.input-field input:focus {
+    border-color: black;
+}
+
+.input-field input:is(:focus, :valid) {
+    padding: 16px 15px 0;
+}
+
+form .input-field label {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    color: #717171;
+    pointer-events: none;
+    transition: 0.2s ease;
+    transform: translateY(-50%);
+}
+
+.input-field input:is(:focus, :valid)~label {
+    color: black;
+    font-size: o.75rem;
+    transform: translateY(-120%);
+}
+
+.checkbox {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.checkbox-size {
+    font-size: 20px;
+}
+
+.form-box a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+.form-box a:hover {
+    text-decoration: underline;
+}
+
+.form-box .forgot-pass {
+    display: inline-flex;
+    margin-top: 10px;
+    font-size: 0.95rem;
+}
+
+form button {
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 14px 0;
+    border-radius: 3px;
+    margin-top: 25px;
+    color: #fff;
+    cursor: pointer;
+    background: #00bcd4;
+    transition: 0.2s ease;
+}
+
+form button:hover {
+    background: black;
+}
+
+
+
+.form-box .bottom-link {
+    text-align: center;
+}
