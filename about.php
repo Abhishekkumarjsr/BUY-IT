@@ -60,6 +60,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </section>
     </nav>
 
+
+
     <section id="about">
         <div class="about-content">
             <h3>Hello, It's Me</h3>

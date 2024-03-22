@@ -59,6 +59,22 @@ if (!$conn) {
         </section>
     </nav>
 
+    <div class="head">
+        <h2>BUY-IT</h2>
+    </div>
+    <div class="sidebox">
+        <div class="sidebox-container">
+            <div class="sidebox-main">
+                <p>Contact Us</p>
+            </div>
+            <div class="sidebox-details">
+                <p>+91 8082494686</p>
+                <p>Abhishek Kumar</p>
+                <p>abhay@gmail.com</p>
+            </div>
+        </div>
+    </div>
+
     <section id="page-header" class="about-header">
         <h2>#Let's_Talk</h2>
         <p>LEAVE A MESSAGE,We love to hear from you!</p>
