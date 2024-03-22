@@ -25,8 +25,8 @@
                 <li><a href="#">Home</a></li>
                 <!-- <li><a href="#">Portfolio</a></li> -->
                 <!-- <li><a href="#">Courses</a></li> -->
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Contact us</a></li>
+                <li><a href="aboutindex.html">About us</a></li>
+                <li><a href="contactindex.html">Contact us</a></li>
             </ul>
             <button class="login-btn">LOG IN</button>
         </nav>
